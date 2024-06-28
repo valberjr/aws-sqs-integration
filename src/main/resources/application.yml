@@ -1,0 +1,10 @@
+cloud:
+  aws:
+    region:
+      static: us-east-1
+      auto: false
+    credentials:
+      access-key: access_key
+      secret-key: secret_key
+    end-point:
+      uri: https://sqs.us-east-1.amazonaws.com/000000000000/virandoprogramador-queue
